@@ -6,6 +6,7 @@
           <div class="single-post-header">
             <?php the_post_thumbnail() ?>
             <div class="single-post-header-content">
+            <div class="container">
               <h2>
                 <a href="<?php the_permalink() ?>">
                   <?php the_title(); ?>
@@ -14,6 +15,7 @@
               <div class="single-post-date">
                 <i class="fa fa-calendar"></i>
                 <?php the_date() ?>
+              </div>
               </div>
             </div>
           </div>

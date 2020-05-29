@@ -129,7 +129,7 @@
           <h3><?php the_title(); ?></h3>
         </div>
         <?php endwhile; endif; ?>
-        <div>
+      <div>
     </section>
   </div>
 </div>
